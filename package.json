@@ -1,9 +1,10 @@
 {
     "name": "child",
     "version": "1.0.0",
-    "homepage": "https://zahrahoseini/child.git",
+    "homepage": "https://zahrahoseini.github.io/child",
     "scripts": {
-        "start": "webpack serve --config=config/webpack.dev.js"
+        "start": "webpack serve --config=config/webpack.dev.js",
+        "deploy": "gh-pages -d config"
     },
     "dependencies": {
         "css-loader": "^6.5.1",
