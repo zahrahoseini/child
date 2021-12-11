@@ -1,6 +1,7 @@
 {
     "name": "child",
     "version": "1.0.0",
+    "homepage": "https://zahrahoseini/child.git",
     "scripts": {
         "start": "webpack serve --config=config/webpack.dev.js"
     },
